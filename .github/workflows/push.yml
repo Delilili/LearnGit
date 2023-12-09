@@ -18,5 +18,5 @@ jobs:
        env:
          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
        run: |
-         git remote add target git@175.24.183.52:root/LearnGit.git
-         git push target HEAD:refs/heads/main
+         git remote add target http://175.24.183.52:3000/Poison02/LearnGit.git
+         git push target HEAD:refs/heads/master
